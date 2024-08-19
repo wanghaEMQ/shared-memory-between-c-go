@@ -1,5 +1,7 @@
 # SHM2U
 
+This project show how to shared memory IPC between C and Golang (without cgo) program.
+
 ## Start
 
 ### C Program

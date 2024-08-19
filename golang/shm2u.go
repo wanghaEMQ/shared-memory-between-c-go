@@ -60,7 +60,6 @@ func main() {
 		copy(data, context)
 		fmt.Printf("address %p:%s\n", data, msg)
 
-
 		c := make(chan os.Signal, 1)
 		signal.Notify(c, os.Interrupt)
 		// Block until a signal is received.
